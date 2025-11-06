@@ -1,17 +1,9 @@
-FRASES = [
-    "A vida trará coisas boas se tiveres paciência.",
-    "Demonstre amor e alegria em todas as oportunidades e verás que a paz nasce dentro de você.",
-    "Não compense na ira o que lhe falta na razão.",
-    "Defeitos e virtudes são apenas dois lados da mesma moeda.",
-    "A maior de todas as torres começa no solo.",
-    "Não há que ser forte, mas sim flexível.",
-    "Gente todo dia arruma os cabelos, por que não o coração?",
-    "Há três coisas que jamais voltam: a flecha lançada, a palavra dita e a oportunidade perdida.",
-    "A juventude não é uma época da vida, é um estado de espírito.",
-    "Vencer a si próprio é a maior das vitórias.",
-    "Deixe de lado as preocupações e seja feliz.",
-    "Realize o óbvio, pense no improvável e conquiste o impossível.",
-    "Acredite em milagres, mas não dependa deles.",
-    "A sorte favorece a mente bem preparada.",
-    "Seu esforço será recompensado.",
-]
+FRASES = {
+    "Sabedoria": 
+    ["A vida trará coisas boas se tiveres paciência.", "A maior de todas as torres começa no solo.", "O único verdadeiro erro é aquele com o qual nada aprendemos.", "A vida é 10% o que acontece com você e 90% como você reage a isso.", "A felicidade não é algo pronto. Ela é feita de suas próprias ações."],
+    "Motivação":
+    ["Acredite em milagres, mas não dependa deles.", "Seu esforço será recompensado.", "Não espere por oportunidades extraordinárias. Agarre as ocasiões comuns e as torne grandes. Homens fracos esperam por oportunidades; homens fortes as criam.", "O sucesso é a soma de pequenos esforços – repetidos dia sim, e dia também.", "Acredite que você pode e você estará no meio do caminho."],
+    "Reflexão": 
+    ["Há três coisas que jamais voltam: a flecha lançada, a palavra dita e a oportunidade perdida.", "Seja a mudança que você deseja ver no mundo.", "Apressa-te a viver bem e pensa que cada dia é, por si só, uma vida."],
+    "Humor": 
+    ["Gente todo dia arruma os cabelos, por que não o coração?", "A inteligência me persegue, mas eu sou mais rápido.", "Se a vida te der limões, faça uma limonada... e tente encontrar alguém cuja vida lhe deu vodka."],}
