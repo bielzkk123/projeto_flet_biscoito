@@ -53,7 +53,7 @@ def main(page: ft.Page):
     
     # Título
     titulo = ft.Text(
-        "🥠 Biscoito da Sorte",
+        "🥠 Bis da Sorte",
         size=32,
         weight=ft.FontWeight.BOLD,
         color="amber800",
