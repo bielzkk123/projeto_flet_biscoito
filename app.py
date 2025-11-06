@@ -66,7 +66,7 @@ def main(page: ft.Page):
             "Clique no botão para abrir seu biscoito!",
             size=18,
             text_align=ft.TextAlign.CENTER,
-            color="grey700",
+            color="pink1",
         ),
         margin=ft.margin.symmetric(vertical=30),
         padding=20,
