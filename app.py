@@ -42,7 +42,7 @@ def main(page: ft.Page):
     page.window_width = 500
     page.window_height = 400
     page.window_resizable = False
-    page.theme_mode = ft.ThemeMode.LIGHT
+    page.theme_mode = ft.ThemeMode.DARK
     page.padding = 20
     
     global contador_cliques, frase_atual
@@ -54,7 +54,7 @@ def main(page: ft.Page):
     # Título
     titulo = ft.Text(
         "🥠 Bis da Sorte",
-        size=32,
+        size=8,
         weight=ft.FontWeight.BOLD,
         color="amber800",
         text_align=ft.TextAlign.CENTER,
@@ -66,7 +66,7 @@ def main(page: ft.Page):
             "Clique no botão para abrir seu biscoito!",
             size=18,
             text_align=ft.TextAlign.CENTER,
-            color="pink1",
+            color="black",
         ),
         margin=ft.margin.symmetric(vertical=30),
         padding=20,
