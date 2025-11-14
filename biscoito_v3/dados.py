@@ -7,3 +7,4 @@ FRASES = {
     ["Há três coisas que jamais voltam: a flecha lançada, a palavra dita e a oportunidade perdida.", "Seja a mudança que você deseja ver no mundo.", "Apressa-te a viver bem e pensa que cada dia é, por si só, uma vida."],
     "Humor": 
     ["Gente todo dia arruma os cabelos, por que não o coração?", "A inteligência me persegue, mas eu sou mais rápido.", "Se a vida te der limões, faça uma limonada... e tente encontrar alguém cuja vida lhe deu vodka."],}
+
