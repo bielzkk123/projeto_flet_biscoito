@@ -5,46 +5,39 @@ class BiscoitoView:
         self.page = page
         self.controller = controller
 
-        self.titulo = ft.Text(
-            "Biscoito da Sorte",
+        self.titulo = ft.Text("Biscoito da Sorte",
             size=32,
             weight=ft.FontWeight.BOLD,
             color="amber800",
             text_align=ft.TextAlign.CENTER)
 
-        self.frase_texto = ft.Text(
-            "Clique no botão para abrir o biscoito!",
+        self.frase_texto = ft.Text("Clique no botão para abrir o biscoito!",
             size=18,
             text_align=ft.TextAlign.CENTER)
 
-        self.contador_texto = ft.Text(
-            "Biscoitos a serem abertos: 0",
+        self.contador_texto = ft.Text("Biscoitos a serem abertos: 0",
             size=14,
             color="grey600",
             text_align=ft.TextAlign.CENTER)
 
-        self.historico_titulo = ft.Text(
-            "Histórico:",
+        self.historico_titulo = ft.Text("Histórico:",
             size=16,
             weight=ft.FontWeight.BOLD,
             color="bluegrey700")
 
-        self.historico_lista = ft.Text(
-            "",
+        self.historico_lista = ft.Text(" ",
             size=14,
             color="white")
 
     def construir(self):
-        botao_abrir = ft.ElevatedButton(
-            "Abrir Biscoito",
+        botao_abrir = ft.ElevatedButton("Abrir Biscoito",
             on_click=lambda e: self.controller.abrir_biscoito(),
             bgcolor="amber600",
             color="white",
             width=200,
             height=50,)
 
-        botao_limpar = ft.ElevatedButton(
-            "Limpar Histórico",
+        botao_limpar = ft.ElevatedButton("Limpar Histórico",
             on_click=lambda e: self.controller.resetar(),
             bgcolor="red400",
             color="white",
