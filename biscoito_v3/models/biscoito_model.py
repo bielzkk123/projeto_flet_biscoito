@@ -20,9 +20,9 @@ class BiscoitoModel:
         self.historico.clear()
         self.frase_anterior = None
  
-    def get_total_frases(self):
+    def obter_total_de_frases(self):
         return len(self.historico)
  
-    def get_historico(self):
+    def obter_historico(self):
         return self.historico.copy()
  
